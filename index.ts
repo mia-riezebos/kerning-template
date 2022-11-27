@@ -1,6 +1,5 @@
 import fs from "fs";
 
-const DEBUG = false;
 const outputFilename = "kerning.txt";
 
 const lowercase = "abcdefghijklmnopqrstuvwxyz".split("");
@@ -22,8 +21,6 @@ let kerningStringArray = characters.map((character) => {
   if (character == "\n") return ["\n"];
   return generateKerningString(character, characters);
 });
-
-if (DEBUG) console.debug(kerningStringArray);
 
 function generateKerningString(char: String, characters: String[]): String[] {
   var kerningString = new Array();
@@ -49,6 +46,3 @@ let kerningString = kerningStringArray
   .join("\n\n");
 
 fs.writeFileSync(outputFilename, kerningString);
-
-// q: how do i set the remote of my git repository
-// a: git remote set-url origin
