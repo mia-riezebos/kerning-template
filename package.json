@@ -1,0 +1,22 @@
+{
+  "name": "KERNING",
+  "version": "1.0.0",
+  "description": "quickly generate a kerning table for your font",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "keywords": [
+    "font",
+    "kerning"
+  ],
+  "author": "mia-cx",
+  "license": "The Unlicense",
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "repository": "https://github.com/mia-cx/kerning-template.git"
+}
