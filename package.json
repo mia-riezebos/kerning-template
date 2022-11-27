@@ -1,6 +1,6 @@
 {
   "name": "kerning-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quickly generate a kerning table for your font",
   "main": "index.ts",
   "scripts": {
