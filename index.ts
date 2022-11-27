@@ -49,3 +49,6 @@ let kerningString = kerningStringArray
   .join("\n\n");
 
 fs.writeFileSync(outputFilename, kerningString);
+
+// q: how do i set the remote of my git repository
+// a: git remote set-url origin
